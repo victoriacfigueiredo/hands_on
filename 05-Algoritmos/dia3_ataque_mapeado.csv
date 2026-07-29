@@ -1,0 +1,574 @@
+case_id,timestamp,activity,usuario,host,recurso,tactic,technique_id,technique
+case_075,2026-05-05 00:56:40,Logon,usuario_07,WS-07,-,Initial Access,T1078,Valid Accounts
+case_075,2026-05-05 00:57:41,Descoberta_Arquivos,usuario_07,WS-07,-,Discovery,T1083,File and Directory Discovery
+case_075,2026-05-05 01:02:12,Coleta_Arquivos,usuario_07,WS-07,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_075,2026-05-05 01:03:25,Coleta_Arquivos,usuario_07,WS-07,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_075,2026-05-05 01:06:32,Coleta_Arquivos,usuario_07,WS-07,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_075,2026-05-05 01:09:54,Coleta_Arquivos,usuario_07,WS-07,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_075,2026-05-05 01:11:02,Compactar_Dados,usuario_07,WS-07,-,Collection,T1560,Archive Collected Data
+case_075,2026-05-05 01:14:47,Exfiltracao_Web,usuario_07,WS-07,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_075,2026-05-05 01:18:29,Logoff,usuario_07,WS-07,-,Benigno,-,Uso normal
+case_009,2026-05-04 12:27:33,Logon,usuario_12,WS-12,intranet.local,Initial Access,T1078,Valid Accounts
+case_009,2026-05-04 12:29:18,Envio_Email,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_009,2026-05-04 12:31:32,Impressao,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_009,2026-05-04 12:36:29,Envio_Email,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_009,2026-05-04 12:39:37,Acesso_Arquivo_Comum,usuario_12,WS-12,-,Benigno,-,Uso normal
+case_009,2026-05-04 12:41:51,Logoff,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_013,2026-05-08 13:33:16,Logon,usuario_07,WS-07,impressora_01,Initial Access,T1078,Valid Accounts
+case_013,2026-05-08 13:37:10,Acesso_Arquivo_Comum,usuario_07,WS-07,\Users\Public,Benigno,-,Uso normal
+case_013,2026-05-08 13:38:01,Acesso_Arquivo_Comum,usuario_07,WS-07,-,Benigno,-,Uso normal
+case_013,2026-05-08 13:41:22,Acesso_Arquivo_Comum,usuario_07,WS-07,\\fileserver\comum,Benigno,-,Uso normal
+case_013,2026-05-08 13:46:06,Logoff,usuario_07,WS-07,\\fileserver\comum,Benigno,-,Uso normal
+case_079,2026-05-05 02:47:12,Logon,usuario_20,WS-20,-,Initial Access,T1078,Valid Accounts
+case_079,2026-05-05 02:49:44,Descoberta_Arquivos,usuario_20,WS-20,-,Discovery,T1083,File and Directory Discovery
+case_079,2026-05-05 02:50:56,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_079,2026-05-05 02:52:40,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_079,2026-05-05 02:53:52,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_079,2026-05-05 02:55:52,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_079,2026-05-05 02:59:28,Compactar_Dados,usuario_20,WS-20,-,Collection,T1560,Archive Collected Data
+case_079,2026-05-05 03:01:05,Exfiltracao_Web,usuario_20,WS-20,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_079,2026-05-05 03:02:40,Logoff,usuario_20,WS-20,-,Benigno,-,Uso normal
+case_010,2026-05-06 16:03:16,Logon,usuario_08,WS-08,\Users\Public,Initial Access,T1078,Valid Accounts
+case_010,2026-05-06 16:06:32,Envio_Email,usuario_08,WS-08,\\fileserver\comum,Benigno,-,Uso normal
+case_010,2026-05-06 16:09:50,Acesso_Arquivo_Comum,usuario_08,WS-08,intranet.local,Benigno,-,Uso normal
+case_010,2026-05-06 16:10:51,Navegacao_Web,usuario_08,WS-08,\Users\Public,Benigno,-,Uso normal
+case_010,2026-05-06 16:12:03,Acesso_Arquivo_Comum,usuario_08,WS-08,\Users\Public,Benigno,-,Uso normal
+case_010,2026-05-06 16:16:23,Abrir_Aplicativo,usuario_08,WS-08,\Users\Public,Benigno,-,Uso normal
+case_010,2026-05-06 16:19:35,Abrir_Aplicativo,usuario_08,WS-08,\Users\Public,Benigno,-,Uso normal
+case_010,2026-05-06 16:24:02,Logoff,usuario_08,WS-08,impressora_01,Benigno,-,Uso normal
+case_005,2026-05-07 17:22:17,Logon,usuario_05,WS-05,\Users\Public,Initial Access,T1078,Valid Accounts
+case_005,2026-05-07 17:26:17,Acesso_Arquivo_Comum,usuario_05,WS-05,impressora_01,Benigno,-,Uso normal
+case_005,2026-05-07 17:28:59,Impressao,usuario_05,WS-05,-,Benigno,-,Uso normal
+case_005,2026-05-07 17:32:51,Navegacao_Web,usuario_05,WS-05,intranet.local,Benigno,-,Uso normal
+case_005,2026-05-07 17:36:25,Abrir_Aplicativo,usuario_05,WS-05,\Users\Public,Benigno,-,Uso normal
+case_005,2026-05-07 17:38:02,Logoff,usuario_05,WS-05,\Users\Documents,Benigno,-,Uso normal
+case_006,2026-05-06 08:04:09,Logon,usuario_05,WS-05,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_006,2026-05-06 08:09:02,Envio_Email,usuario_05,WS-05,intranet.local,Benigno,-,Uso normal
+case_006,2026-05-06 08:12:05,Abrir_Aplicativo,usuario_05,WS-05,\Users\Public,Benigno,-,Uso normal
+case_006,2026-05-06 08:16:48,Impressao,usuario_05,WS-05,impressora_01,Benigno,-,Uso normal
+case_006,2026-05-06 08:17:35,Abrir_Aplicativo,usuario_05,WS-05,\\fileserver\comum,Benigno,-,Uso normal
+case_006,2026-05-06 08:21:15,Logoff,usuario_05,WS-05,\\fileserver\comum,Benigno,-,Uso normal
+case_078,2026-05-07 02:01:32,Logon,usuario_19,WS-19,-,Initial Access,T1078,Valid Accounts
+case_078,2026-05-07 02:03:30,Descoberta_Arquivos,usuario_19,WS-19,-,Discovery,T1083,File and Directory Discovery
+case_078,2026-05-07 02:06:06,Coleta_Arquivos,usuario_19,WS-19,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_078,2026-05-07 02:09:00,Coleta_Arquivos,usuario_19,WS-19,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_078,2026-05-07 02:10:39,Compactar_Dados,usuario_19,WS-19,-,Collection,T1560,Archive Collected Data
+case_078,2026-05-07 02:12:18,Exfiltracao_Web,usuario_19,WS-19,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_078,2026-05-07 02:14:44,Logoff,usuario_19,WS-19,-,Benigno,-,Uso normal
+case_067,2026-05-05 01:43:10,Logon,usuario_01,WS-01,-,Initial Access,T1078,Valid Accounts
+case_067,2026-05-05 01:46:17,Descoberta_Arquivos,usuario_01,WS-01,-,Discovery,T1083,File and Directory Discovery
+case_067,2026-05-05 01:48:15,Coleta_Arquivos,usuario_01,WS-01,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_067,2026-05-05 01:51:54,Coleta_Arquivos,usuario_01,WS-01,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_067,2026-05-05 01:55:02,Compactar_Dados,usuario_01,WS-01,-,Collection,T1560,Archive Collected Data
+case_067,2026-05-05 01:57:24,Exfiltracao_Web,usuario_01,WS-01,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_067,2026-05-05 02:00:58,Logoff,usuario_01,WS-01,-,Benigno,-,Uso normal
+case_035,2026-05-07 12:27:14,Logon,usuario_04,WS-04,impressora_01,Initial Access,T1078,Valid Accounts
+case_035,2026-05-07 12:27:34,Abrir_Aplicativo,usuario_04,WS-04,\Users\Documents,Benigno,-,Uso normal
+case_035,2026-05-07 12:32:29,Navegacao_Web,usuario_04,WS-04,intranet.local,Benigno,-,Uso normal
+case_035,2026-05-07 12:36:44,Navegacao_Web,usuario_04,WS-04,intranet.local,Benigno,-,Uso normal
+case_035,2026-05-07 12:39:45,Logoff,usuario_04,WS-04,-,Benigno,-,Uso normal
+case_044,2026-05-07 14:22:02,Logon,usuario_15,WS-15,intranet.local,Initial Access,T1078,Valid Accounts
+case_044,2026-05-07 14:24:21,Abrir_Aplicativo,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_044,2026-05-07 14:25:06,Navegacao_Web,usuario_15,WS-15,\Users\Public,Benigno,-,Uso normal
+case_044,2026-05-07 14:27:05,Impressao,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_044,2026-05-07 14:30:35,Logoff,usuario_15,WS-15,impressora_01,Benigno,-,Uso normal
+case_074,2026-05-07 00:48:31,Logon,usuario_10,WS-10,-,Initial Access,T1078,Valid Accounts
+case_074,2026-05-07 00:50:25,Descoberta_Arquivos,usuario_10,WS-10,-,Discovery,T1083,File and Directory Discovery
+case_074,2026-05-07 00:54:58,Coleta_Arquivos,usuario_10,WS-10,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_074,2026-05-07 00:58:15,Coleta_Arquivos,usuario_10,WS-10,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_074,2026-05-07 01:02:58,Compactar_Dados,usuario_10,WS-10,-,Collection,T1560,Archive Collected Data
+case_074,2026-05-07 01:05:31,Exfiltracao_Web,usuario_10,WS-10,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_074,2026-05-07 01:07:12,Logoff,usuario_10,WS-10,-,Benigno,-,Uso normal
+case_008,2026-05-04 09:58:54,Logon,usuario_12,WS-12,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_008,2026-05-04 10:03:12,Abrir_Aplicativo,usuario_12,WS-12,\\fileserver\comum,Benigno,-,Uso normal
+case_008,2026-05-04 10:07:39,Impressao,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_008,2026-05-04 10:08:42,Envio_Email,usuario_12,WS-12,\Users\Public,Benigno,-,Uso normal
+case_008,2026-05-04 10:09:54,Abrir_Aplicativo,usuario_12,WS-12,-,Benigno,-,Uso normal
+case_008,2026-05-04 10:13:09,Acesso_Arquivo_Comum,usuario_12,WS-12,-,Benigno,-,Uso normal
+case_008,2026-05-04 10:15:44,Acesso_Arquivo_Comum,usuario_12,WS-12,\\fileserver\comum,Benigno,-,Uso normal
+case_008,2026-05-04 10:17:26,Acesso_Arquivo_Comum,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_008,2026-05-04 10:17:57,Logoff,usuario_12,WS-12,\Users\Public,Benigno,-,Uso normal
+case_047,2026-05-07 10:46:08,Logon,usuario_14,WS-14,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_047,2026-05-07 10:46:54,Navegacao_Web,usuario_14,WS-14,impressora_01,Benigno,-,Uso normal
+case_047,2026-05-07 10:48:26,Impressao,usuario_14,WS-14,-,Benigno,-,Uso normal
+case_047,2026-05-07 10:52:09,Navegacao_Web,usuario_14,WS-14,\Users\Documents,Benigno,-,Uso normal
+case_047,2026-05-07 10:55:38,Impressao,usuario_14,WS-14,-,Benigno,-,Uso normal
+case_047,2026-05-07 11:00:16,Logoff,usuario_14,WS-14,\Users\Public,Benigno,-,Uso normal
+case_022,2026-05-04 12:29:23,Logon,usuario_20,WS-20,intranet.local,Initial Access,T1078,Valid Accounts
+case_022,2026-05-04 12:34:23,Envio_Email,usuario_20,WS-20,intranet.local,Benigno,-,Uso normal
+case_022,2026-05-04 12:36:48,Abrir_Aplicativo,usuario_20,WS-20,\Users\Documents,Benigno,-,Uso normal
+case_022,2026-05-04 12:39:46,Abrir_Aplicativo,usuario_20,WS-20,\Users\Public,Benigno,-,Uso normal
+case_022,2026-05-04 12:43:08,Acesso_Arquivo_Comum,usuario_20,WS-20,\Users\Public,Benigno,-,Uso normal
+case_022,2026-05-04 12:43:28,Logoff,usuario_20,WS-20,intranet.local,Benigno,-,Uso normal
+case_037,2026-05-06 09:51:39,Logon,usuario_16,WS-16,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_037,2026-05-06 09:53:34,Acesso_Arquivo_Comum,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_037,2026-05-06 09:58:02,Impressao,usuario_16,WS-16,\\fileserver\comum,Benigno,-,Uso normal
+case_037,2026-05-06 09:58:50,Acesso_Arquivo_Comum,usuario_16,WS-16,impressora_01,Benigno,-,Uso normal
+case_037,2026-05-06 10:00:24,Acesso_Arquivo_Comum,usuario_16,WS-16,\\fileserver\comum,Benigno,-,Uso normal
+case_037,2026-05-06 10:01:11,Logoff,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_020,2026-05-08 16:06:15,Logon,usuario_02,WS-02,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_020,2026-05-08 16:07:29,Abrir_Aplicativo,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_020,2026-05-08 16:11:30,Navegacao_Web,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_020,2026-05-08 16:16:03,Impressao,usuario_02,WS-02,impressora_01,Benigno,-,Uso normal
+case_020,2026-05-08 16:19:44,Logoff,usuario_02,WS-02,impressora_01,Benigno,-,Uso normal
+case_043,2026-05-05 12:11:15,Logon,usuario_10,WS-10,\Users\Public,Initial Access,T1078,Valid Accounts
+case_043,2026-05-05 12:13:59,Acesso_Arquivo_Comum,usuario_10,WS-10,impressora_01,Benigno,-,Uso normal
+case_043,2026-05-05 12:15:55,Acesso_Arquivo_Comum,usuario_10,WS-10,intranet.local,Benigno,-,Uso normal
+case_043,2026-05-05 12:16:48,Acesso_Arquivo_Comum,usuario_10,WS-10,\\fileserver\comum,Benigno,-,Uso normal
+case_043,2026-05-05 12:19:16,Acesso_Arquivo_Comum,usuario_10,WS-10,\Users\Public,Benigno,-,Uso normal
+case_043,2026-05-05 12:23:55,Navegacao_Web,usuario_10,WS-10,impressora_01,Benigno,-,Uso normal
+case_043,2026-05-05 12:26:13,Logoff,usuario_10,WS-10,-,Benigno,-,Uso normal
+case_039,2026-05-04 17:34:48,Logon,usuario_12,WS-12,\Users\Public,Initial Access,T1078,Valid Accounts
+case_039,2026-05-04 17:38:22,Navegacao_Web,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_039,2026-05-04 17:41:20,Abrir_Aplicativo,usuario_12,WS-12,\\fileserver\comum,Benigno,-,Uso normal
+case_039,2026-05-04 17:42:24,Abrir_Aplicativo,usuario_12,WS-12,\Users\Documents,Benigno,-,Uso normal
+case_039,2026-05-04 17:46:46,Abrir_Aplicativo,usuario_12,WS-12,\Users\Public,Benigno,-,Uso normal
+case_039,2026-05-04 17:50:16,Navegacao_Web,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_039,2026-05-04 17:54:24,Logoff,usuario_12,WS-12,\Users\Public,Benigno,-,Uso normal
+case_048,2026-05-05 13:08:08,Logon,usuario_12,WS-12,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_048,2026-05-05 13:12:35,Abrir_Aplicativo,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_048,2026-05-05 13:13:22,Abrir_Aplicativo,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_048,2026-05-05 13:17:00,Abrir_Aplicativo,usuario_12,WS-12,\Users\Documents,Benigno,-,Uso normal
+case_048,2026-05-05 13:18:42,Acesso_Arquivo_Comum,usuario_12,WS-12,-,Benigno,-,Uso normal
+case_048,2026-05-05 13:20:55,Envio_Email,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_048,2026-05-05 13:24:42,Logoff,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_064,2026-05-08 14:31:41,Logon,usuario_14,WS-14,-,Initial Access,T1078,Valid Accounts
+case_064,2026-05-08 14:35:33,Descoberta_Rede,usuario_14,WS-14,-,Discovery,T1018,Remote System Discovery
+case_064,2026-05-08 14:37:22,Coleta_Credenciais,usuario_14,WS-14,-,Credential Access,T1003,OS Credential Dumping
+case_064,2026-05-08 14:42:02,Conexao_WinRM,usuario_14,SRV-FILE,SRV-FILE,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_064,2026-05-08 14:45:00,Execucao_PowerShell,usuario_14,SRV-FILE,SRV-FILE,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_064,2026-05-08 14:45:52,Persistencia_Tarefa,usuario_14,SRV-FILE,SRV-FILE,Persistence,T1053.005,Scheduled Task
+case_064,2026-05-08 14:48:45,Logoff,usuario_14,SRV-FILE,-,Benigno,-,Uso normal
+case_029,2026-05-05 08:12:57,Logon,usuario_13,WS-13,-,Initial Access,T1078,Valid Accounts
+case_029,2026-05-05 08:15:45,Abrir_Aplicativo,usuario_13,WS-13,intranet.local,Benigno,-,Uso normal
+case_029,2026-05-05 08:19:15,Acesso_Arquivo_Comum,usuario_13,WS-13,\Users\Documents,Benigno,-,Uso normal
+case_029,2026-05-05 08:22:56,Acesso_Arquivo_Comum,usuario_13,WS-13,\\fileserver\comum,Benigno,-,Uso normal
+case_029,2026-05-05 08:23:55,Acesso_Arquivo_Comum,usuario_13,WS-13,intranet.local,Benigno,-,Uso normal
+case_029,2026-05-05 08:27:54,Acesso_Arquivo_Comum,usuario_13,WS-13,intranet.local,Benigno,-,Uso normal
+case_029,2026-05-05 08:28:38,Logoff,usuario_13,WS-13,intranet.local,Benigno,-,Uso normal
+case_018,2026-05-06 08:58:51,Logon,usuario_14,WS-14,-,Initial Access,T1078,Valid Accounts
+case_018,2026-05-06 09:00:44,Navegacao_Web,usuario_14,WS-14,\\fileserver\comum,Benigno,-,Uso normal
+case_018,2026-05-06 09:01:41,Navegacao_Web,usuario_14,WS-14,intranet.local,Benigno,-,Uso normal
+case_018,2026-05-06 09:02:09,Navegacao_Web,usuario_14,WS-14,-,Benigno,-,Uso normal
+case_018,2026-05-06 09:03:14,Navegacao_Web,usuario_14,WS-14,intranet.local,Benigno,-,Uso normal
+case_018,2026-05-06 09:04:16,Acesso_Arquivo_Comum,usuario_14,WS-14,impressora_01,Benigno,-,Uso normal
+case_018,2026-05-06 09:06:29,Logoff,usuario_14,WS-14,\Users\Documents,Benigno,-,Uso normal
+case_015,2026-05-07 16:39:15,Logon,usuario_03,WS-03,-,Initial Access,T1078,Valid Accounts
+case_015,2026-05-07 16:44:02,Acesso_Arquivo_Comum,usuario_03,WS-03,intranet.local,Benigno,-,Uso normal
+case_015,2026-05-07 16:46:05,Impressao,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_015,2026-05-07 16:47:35,Envio_Email,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_015,2026-05-07 16:48:57,Abrir_Aplicativo,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_015,2026-05-07 16:53:03,Acesso_Arquivo_Comum,usuario_03,WS-03,intranet.local,Benigno,-,Uso normal
+case_015,2026-05-07 16:54:00,Navegacao_Web,usuario_03,WS-03,-,Benigno,-,Uso normal
+case_015,2026-05-07 16:56:23,Logoff,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_076,2026-05-05 02:35:16,Logon,usuario_14,WS-14,-,Initial Access,T1078,Valid Accounts
+case_076,2026-05-05 02:39:15,Descoberta_Arquivos,usuario_14,WS-14,-,Discovery,T1083,File and Directory Discovery
+case_076,2026-05-05 02:44:14,Coleta_Arquivos,usuario_14,WS-14,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_076,2026-05-05 02:48:50,Coleta_Arquivos,usuario_14,WS-14,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_076,2026-05-05 02:50:37,Coleta_Arquivos,usuario_14,WS-14,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_076,2026-05-05 02:54:11,Coleta_Arquivos,usuario_14,WS-14,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_076,2026-05-05 02:56:30,Compactar_Dados,usuario_14,WS-14,-,Collection,T1560,Archive Collected Data
+case_076,2026-05-05 03:00:45,Exfiltracao_Web,usuario_14,WS-14,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_076,2026-05-05 03:02:09,Logoff,usuario_14,WS-14,-,Benigno,-,Uso normal
+case_004,2026-05-04 13:17:41,Logon,usuario_20,WS-20,impressora_01,Initial Access,T1078,Valid Accounts
+case_004,2026-05-04 13:21:49,Navegacao_Web,usuario_20,WS-20,intranet.local,Benigno,-,Uso normal
+case_004,2026-05-04 13:25:26,Navegacao_Web,usuario_20,WS-20,-,Benigno,-,Uso normal
+case_004,2026-05-04 13:28:43,Impressao,usuario_20,WS-20,\Users\Documents,Benigno,-,Uso normal
+case_004,2026-05-04 13:32:59,Impressao,usuario_20,WS-20,intranet.local,Benigno,-,Uso normal
+case_004,2026-05-04 13:34:45,Navegacao_Web,usuario_20,WS-20,impressora_01,Benigno,-,Uso normal
+case_004,2026-05-04 13:36:04,Envio_Email,usuario_20,WS-20,\\fileserver\comum,Benigno,-,Uso normal
+case_004,2026-05-04 13:36:54,Logoff,usuario_20,WS-20,\Users\Public,Benigno,-,Uso normal
+case_055,2026-05-05 12:26:10,Logon,usuario_11,WS-11,-,Initial Access,T1078,Valid Accounts
+case_055,2026-05-05 12:28:52,Descoberta_Rede,usuario_11,WS-11,-,Discovery,T1018,Remote System Discovery
+case_055,2026-05-05 12:31:59,Coleta_Credenciais,usuario_11,WS-11,-,Credential Access,T1003,OS Credential Dumping
+case_055,2026-05-05 12:35:31,Conexao_WinRM,usuario_11,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_055,2026-05-05 12:37:17,Execucao_PowerShell,usuario_11,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_055,2026-05-05 12:39:52,Persistencia_Tarefa,usuario_11,SRV-DC,SRV-DC,Persistence,T1053.005,Scheduled Task
+case_055,2026-05-05 12:41:10,Logoff,usuario_11,SRV-DC,-,Benigno,-,Uso normal
+case_042,2026-05-04 12:31:39,Logon,usuario_08,WS-08,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_042,2026-05-04 12:33:45,Abrir_Aplicativo,usuario_08,WS-08,\Users\Documents,Benigno,-,Uso normal
+case_042,2026-05-04 12:37:40,Abrir_Aplicativo,usuario_08,WS-08,\\fileserver\comum,Benigno,-,Uso normal
+case_042,2026-05-04 12:41:48,Navegacao_Web,usuario_08,WS-08,\Users\Public,Benigno,-,Uso normal
+case_042,2026-05-04 12:44:07,Acesso_Arquivo_Comum,usuario_08,WS-08,\Users\Public,Benigno,-,Uso normal
+case_042,2026-05-04 12:48:00,Impressao,usuario_08,WS-08,\\fileserver\comum,Benigno,-,Uso normal
+case_042,2026-05-04 12:50:20,Impressao,usuario_08,WS-08,-,Benigno,-,Uso normal
+case_042,2026-05-04 12:55:15,Logoff,usuario_08,WS-08,-,Benigno,-,Uso normal
+case_036,2026-05-07 09:23:16,Logon,usuario_16,WS-16,\Users\Public,Initial Access,T1078,Valid Accounts
+case_036,2026-05-07 09:27:13,Acesso_Arquivo_Comum,usuario_16,WS-16,intranet.local,Benigno,-,Uso normal
+case_036,2026-05-07 09:29:29,Acesso_Arquivo_Comum,usuario_16,WS-16,\\fileserver\comum,Benigno,-,Uso normal
+case_036,2026-05-07 09:30:06,Impressao,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_036,2026-05-07 09:33:19,Envio_Email,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_036,2026-05-07 09:37:14,Acesso_Arquivo_Comum,usuario_16,WS-16,intranet.local,Benigno,-,Uso normal
+case_036,2026-05-07 09:40:56,Abrir_Aplicativo,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_036,2026-05-07 09:41:19,Navegacao_Web,usuario_16,WS-16,intranet.local,Benigno,-,Uso normal
+case_036,2026-05-07 09:45:57,Logoff,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_070,2026-05-05 04:33:57,Logon,usuario_03,WS-03,-,Initial Access,T1078,Valid Accounts
+case_070,2026-05-05 04:34:50,Descoberta_Arquivos,usuario_03,WS-03,-,Discovery,T1083,File and Directory Discovery
+case_070,2026-05-05 04:38:26,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_070,2026-05-05 04:39:40,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_070,2026-05-05 04:42:06,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_070,2026-05-05 04:44:11,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_070,2026-05-05 04:46:15,Compactar_Dados,usuario_03,WS-03,-,Collection,T1560,Archive Collected Data
+case_070,2026-05-05 04:47:32,Exfiltracao_USB,usuario_03,WS-03,USB:\,Exfiltration,T1052.001,Exfiltration Over USB
+case_070,2026-05-05 04:48:09,Logoff,usuario_03,WS-03,-,Benigno,-,Uso normal
+case_023,2026-05-05 14:49:37,Logon,usuario_03,WS-03,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_023,2026-05-05 14:53:18,Acesso_Arquivo_Comum,usuario_03,WS-03,\Users\Documents,Benigno,-,Uso normal
+case_023,2026-05-05 14:56:11,Envio_Email,usuario_03,WS-03,intranet.local,Benigno,-,Uso normal
+case_023,2026-05-05 14:58:30,Acesso_Arquivo_Comum,usuario_03,WS-03,\Users\Documents,Benigno,-,Uso normal
+case_023,2026-05-05 15:03:20,Envio_Email,usuario_03,WS-03,\Users\Public,Benigno,-,Uso normal
+case_023,2026-05-05 15:06:59,Abrir_Aplicativo,usuario_03,WS-03,intranet.local,Benigno,-,Uso normal
+case_023,2026-05-05 15:11:32,Impressao,usuario_03,WS-03,\Users\Public,Benigno,-,Uso normal
+case_023,2026-05-05 15:14:17,Logoff,usuario_03,WS-03,-,Benigno,-,Uso normal
+case_050,2026-05-04 08:03:39,Logon,usuario_14,WS-14,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_050,2026-05-04 08:07:57,Navegacao_Web,usuario_14,WS-14,\Users\Public,Benigno,-,Uso normal
+case_050,2026-05-04 08:12:05,Navegacao_Web,usuario_14,WS-14,impressora_01,Benigno,-,Uso normal
+case_050,2026-05-04 08:16:19,Envio_Email,usuario_14,WS-14,\Users\Public,Benigno,-,Uso normal
+case_050,2026-05-04 08:20:41,Navegacao_Web,usuario_14,WS-14,\\fileserver\comum,Benigno,-,Uso normal
+case_050,2026-05-04 08:21:55,Navegacao_Web,usuario_14,WS-14,\Users\Documents,Benigno,-,Uso normal
+case_050,2026-05-04 08:23:20,Logoff,usuario_14,WS-14,intranet.local,Benigno,-,Uso normal
+case_014,2026-05-05 16:04:39,Logon,usuario_05,WS-05,-,Initial Access,T1078,Valid Accounts
+case_014,2026-05-05 16:06:00,Abrir_Aplicativo,usuario_05,WS-05,impressora_01,Benigno,-,Uso normal
+case_014,2026-05-05 16:06:51,Navegacao_Web,usuario_05,WS-05,intranet.local,Benigno,-,Uso normal
+case_014,2026-05-05 16:11:36,Impressao,usuario_05,WS-05,impressora_01,Benigno,-,Uso normal
+case_014,2026-05-05 16:16:03,Envio_Email,usuario_05,WS-05,\Users\Documents,Benigno,-,Uso normal
+case_014,2026-05-05 16:16:52,Envio_Email,usuario_05,WS-05,\Users\Public,Benigno,-,Uso normal
+case_014,2026-05-05 16:18:49,Envio_Email,usuario_05,WS-05,intranet.local,Benigno,-,Uso normal
+case_014,2026-05-05 16:19:30,Abrir_Aplicativo,usuario_05,WS-05,\Users\Documents,Benigno,-,Uso normal
+case_014,2026-05-05 16:24:09,Logoff,usuario_05,WS-05,\\fileserver\comum,Benigno,-,Uso normal
+case_049,2026-05-06 10:06:09,Logon,usuario_16,WS-16,\Users\Public,Initial Access,T1078,Valid Accounts
+case_049,2026-05-06 10:08:07,Navegacao_Web,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_049,2026-05-06 10:08:46,Abrir_Aplicativo,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_049,2026-05-06 10:11:51,Impressao,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_049,2026-05-06 10:15:30,Abrir_Aplicativo,usuario_16,WS-16,impressora_01,Benigno,-,Uso normal
+case_049,2026-05-06 10:19:43,Logoff,usuario_16,WS-16,impressora_01,Benigno,-,Uso normal
+case_077,2026-05-04 02:58:37,Logon,usuario_20,WS-20,-,Initial Access,T1078,Valid Accounts
+case_077,2026-05-04 03:01:44,Descoberta_Arquivos,usuario_20,WS-20,-,Discovery,T1083,File and Directory Discovery
+case_077,2026-05-04 03:06:31,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_077,2026-05-04 03:08:10,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_077,2026-05-04 03:12:20,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_077,2026-05-04 03:15:25,Coleta_Arquivos,usuario_20,WS-20,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_077,2026-05-04 03:17:11,Compactar_Dados,usuario_20,WS-20,-,Collection,T1560,Archive Collected Data
+case_077,2026-05-04 03:21:28,Exfiltracao_USB,usuario_20,WS-20,USB:\,Exfiltration,T1052.001,Exfiltration Over USB
+case_077,2026-05-04 03:25:32,Logoff,usuario_20,WS-20,-,Benigno,-,Uso normal
+case_080,2026-05-04 00:54:17,Logon,usuario_10,WS-10,-,Initial Access,T1078,Valid Accounts
+case_080,2026-05-04 00:56:22,Descoberta_Arquivos,usuario_10,WS-10,-,Discovery,T1083,File and Directory Discovery
+case_080,2026-05-04 01:00:00,Coleta_Arquivos,usuario_10,WS-10,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_080,2026-05-04 01:04:17,Coleta_Arquivos,usuario_10,WS-10,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_080,2026-05-04 01:04:54,Coleta_Arquivos,usuario_10,WS-10,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_080,2026-05-04 01:05:20,Compactar_Dados,usuario_10,WS-10,-,Collection,T1560,Archive Collected Data
+case_080,2026-05-04 01:09:04,Exfiltracao_Web,usuario_10,WS-10,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_080,2026-05-04 01:13:07,Logoff,usuario_10,WS-10,-,Benigno,-,Uso normal
+case_072,2026-05-06 02:44:49,Logon,usuario_09,WS-09,-,Initial Access,T1078,Valid Accounts
+case_072,2026-05-06 02:49:26,Descoberta_Arquivos,usuario_09,WS-09,-,Discovery,T1083,File and Directory Discovery
+case_072,2026-05-06 02:53:49,Coleta_Arquivos,usuario_09,WS-09,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_072,2026-05-06 02:56:36,Coleta_Arquivos,usuario_09,WS-09,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_072,2026-05-06 02:57:11,Coleta_Arquivos,usuario_09,WS-09,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_072,2026-05-06 03:01:02,Compactar_Dados,usuario_09,WS-09,-,Collection,T1560,Archive Collected Data
+case_072,2026-05-06 03:01:37,Exfiltracao_Web,usuario_09,WS-09,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_072,2026-05-06 03:05:40,Logoff,usuario_09,WS-09,-,Benigno,-,Uso normal
+case_025,2026-05-08 09:07:47,Logon,usuario_16,WS-16,-,Initial Access,T1078,Valid Accounts
+case_025,2026-05-08 09:12:09,Abrir_Aplicativo,usuario_16,WS-16,intranet.local,Benigno,-,Uso normal
+case_025,2026-05-08 09:13:07,Envio_Email,usuario_16,WS-16,intranet.local,Benigno,-,Uso normal
+case_025,2026-05-08 09:15:27,Envio_Email,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_025,2026-05-08 09:17:32,Navegacao_Web,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_025,2026-05-08 09:21:47,Navegacao_Web,usuario_16,WS-16,\\fileserver\comum,Benigno,-,Uso normal
+case_025,2026-05-08 09:25:22,Logoff,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_073,2026-05-04 04:35:36,Logon,usuario_04,WS-04,-,Initial Access,T1078,Valid Accounts
+case_073,2026-05-04 04:37:46,Descoberta_Arquivos,usuario_04,WS-04,-,Discovery,T1083,File and Directory Discovery
+case_073,2026-05-04 04:38:52,Coleta_Arquivos,usuario_04,WS-04,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_073,2026-05-04 04:41:39,Coleta_Arquivos,usuario_04,WS-04,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_073,2026-05-04 04:43:26,Coleta_Arquivos,usuario_04,WS-04,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_073,2026-05-04 04:47:29,Compactar_Dados,usuario_04,WS-04,-,Collection,T1560,Archive Collected Data
+case_073,2026-05-04 04:47:49,Exfiltracao_Web,usuario_04,WS-04,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_073,2026-05-04 04:52:37,Logoff,usuario_04,WS-04,-,Benigno,-,Uso normal
+case_063,2026-05-04 12:27:11,Logon,usuario_01,WS-01,-,Initial Access,T1078,Valid Accounts
+case_063,2026-05-04 12:29:32,Descoberta_Rede,usuario_01,WS-01,-,Discovery,T1018,Remote System Discovery
+case_063,2026-05-04 12:31:13,Coleta_Credenciais,usuario_01,WS-01,-,Credential Access,T1003,OS Credential Dumping
+case_063,2026-05-04 12:32:02,Conexao_WinRM,usuario_01,SRV-FILE,SRV-FILE,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_063,2026-05-04 12:33:15,Execucao_PowerShell,usuario_01,SRV-FILE,SRV-FILE,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_063,2026-05-04 12:33:41,Persistencia_Tarefa,usuario_01,SRV-FILE,SRV-FILE,Persistence,T1053.005,Scheduled Task
+case_063,2026-05-04 12:35:41,Logoff,usuario_01,SRV-FILE,-,Benigno,-,Uso normal
+case_012,2026-05-08 16:05:42,Logon,usuario_01,WS-01,intranet.local,Initial Access,T1078,Valid Accounts
+case_012,2026-05-08 16:07:21,Navegacao_Web,usuario_01,WS-01,impressora_01,Benigno,-,Uso normal
+case_012,2026-05-08 16:12:21,Navegacao_Web,usuario_01,WS-01,\Users\Public,Benigno,-,Uso normal
+case_012,2026-05-08 16:12:51,Envio_Email,usuario_01,WS-01,\Users\Documents,Benigno,-,Uso normal
+case_012,2026-05-08 16:14:03,Envio_Email,usuario_01,WS-01,impressora_01,Benigno,-,Uso normal
+case_012,2026-05-08 16:15:34,Logoff,usuario_01,WS-01,\\fileserver\comum,Benigno,-,Uso normal
+case_034,2026-05-04 11:49:09,Logon,usuario_16,WS-16,\Users\Public,Initial Access,T1078,Valid Accounts
+case_034,2026-05-04 11:53:56,Navegacao_Web,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_034,2026-05-04 11:55:11,Abrir_Aplicativo,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_034,2026-05-04 11:59:25,Impressao,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_034,2026-05-04 12:00:05,Impressao,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_034,2026-05-04 12:01:29,Navegacao_Web,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_034,2026-05-04 12:02:08,Navegacao_Web,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_034,2026-05-04 12:05:03,Navegacao_Web,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_034,2026-05-04 12:07:31,Logoff,usuario_16,WS-16,impressora_01,Benigno,-,Uso normal
+case_057,2026-05-06 11:49:48,Logon,usuario_13,WS-13,-,Initial Access,T1078,Valid Accounts
+case_057,2026-05-06 11:50:49,Descoberta_Rede,usuario_13,WS-13,-,Discovery,T1018,Remote System Discovery
+case_057,2026-05-06 11:54:55,Coleta_Credenciais,usuario_13,WS-13,-,Credential Access,T1003,OS Credential Dumping
+case_057,2026-05-06 11:57:12,Conexao_WinRM,usuario_13,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_057,2026-05-06 11:59:02,Execucao_PowerShell,usuario_13,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_057,2026-05-06 11:59:46,Persistencia_Tarefa,usuario_13,SRV-DC,SRV-DC,Persistence,T1053.005,Scheduled Task
+case_057,2026-05-06 12:02:37,Logoff,usuario_13,SRV-DC,-,Benigno,-,Uso normal
+case_040,2026-05-04 09:03:16,Logon,usuario_12,WS-12,\Users\Public,Initial Access,T1078,Valid Accounts
+case_040,2026-05-04 09:04:08,Abrir_Aplicativo,usuario_12,WS-12,impressora_01,Benigno,-,Uso normal
+case_040,2026-05-04 09:07:21,Navegacao_Web,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_040,2026-05-04 09:10:00,Impressao,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_040,2026-05-04 09:10:42,Envio_Email,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_040,2026-05-04 09:13:44,Abrir_Aplicativo,usuario_12,WS-12,intranet.local,Benigno,-,Uso normal
+case_040,2026-05-04 09:16:36,Abrir_Aplicativo,usuario_12,WS-12,\Users\Documents,Benigno,-,Uso normal
+case_040,2026-05-04 09:17:29,Logoff,usuario_12,WS-12,\Users\Documents,Benigno,-,Uso normal
+case_002,2026-05-05 17:13:07,Logon,usuario_08,WS-08,impressora_01,Initial Access,T1078,Valid Accounts
+case_002,2026-05-05 17:16:04,Impressao,usuario_08,WS-08,impressora_01,Benigno,-,Uso normal
+case_002,2026-05-05 17:17:56,Navegacao_Web,usuario_08,WS-08,\Users\Documents,Benigno,-,Uso normal
+case_002,2026-05-05 17:19:52,Acesso_Arquivo_Comum,usuario_08,WS-08,intranet.local,Benigno,-,Uso normal
+case_002,2026-05-05 17:21:01,Impressao,usuario_08,WS-08,impressora_01,Benigno,-,Uso normal
+case_002,2026-05-05 17:21:53,Abrir_Aplicativo,usuario_08,WS-08,impressora_01,Benigno,-,Uso normal
+case_002,2026-05-05 17:22:43,Impressao,usuario_08,WS-08,impressora_01,Benigno,-,Uso normal
+case_002,2026-05-05 17:24:48,Acesso_Arquivo_Comum,usuario_08,WS-08,\\fileserver\comum,Benigno,-,Uso normal
+case_002,2026-05-05 17:29:40,Logoff,usuario_08,WS-08,\\fileserver\comum,Benigno,-,Uso normal
+case_068,2026-05-04 00:13:27,Logon,usuario_16,WS-16,-,Initial Access,T1078,Valid Accounts
+case_068,2026-05-04 00:15:46,Descoberta_Arquivos,usuario_16,WS-16,-,Discovery,T1083,File and Directory Discovery
+case_068,2026-05-04 00:18:43,Coleta_Arquivos,usuario_16,WS-16,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_068,2026-05-04 00:20:51,Coleta_Arquivos,usuario_16,WS-16,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_068,2026-05-04 00:24:31,Coleta_Arquivos,usuario_16,WS-16,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_068,2026-05-04 00:25:30,Compactar_Dados,usuario_16,WS-16,-,Collection,T1560,Archive Collected Data
+case_068,2026-05-04 00:27:17,Exfiltracao_USB,usuario_16,WS-16,USB:\,Exfiltration,T1052.001,Exfiltration Over USB
+case_068,2026-05-04 00:28:51,Logoff,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_031,2026-05-06 14:55:41,Logon,usuario_18,WS-18,\Users\Public,Initial Access,T1078,Valid Accounts
+case_031,2026-05-06 14:58:35,Abrir_Aplicativo,usuario_18,WS-18,\\fileserver\comum,Benigno,-,Uso normal
+case_031,2026-05-06 15:02:16,Navegacao_Web,usuario_18,WS-18,\Users\Documents,Benigno,-,Uso normal
+case_031,2026-05-06 15:04:01,Acesso_Arquivo_Comum,usuario_18,WS-18,-,Benigno,-,Uso normal
+case_031,2026-05-06 15:05:43,Acesso_Arquivo_Comum,usuario_18,WS-18,\Users\Documents,Benigno,-,Uso normal
+case_031,2026-05-06 15:07:49,Logoff,usuario_18,WS-18,impressora_01,Benigno,-,Uso normal
+case_028,2026-05-05 16:29:57,Logon,usuario_09,WS-09,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_028,2026-05-05 16:33:38,Abrir_Aplicativo,usuario_09,WS-09,\Users\Documents,Benigno,-,Uso normal
+case_028,2026-05-05 16:35:19,Impressao,usuario_09,WS-09,\Users\Documents,Benigno,-,Uso normal
+case_028,2026-05-05 16:39:50,Navegacao_Web,usuario_09,WS-09,-,Benigno,-,Uso normal
+case_028,2026-05-05 16:44:00,Impressao,usuario_09,WS-09,\\fileserver\comum,Benigno,-,Uso normal
+case_028,2026-05-05 16:46:54,Envio_Email,usuario_09,WS-09,-,Benigno,-,Uso normal
+case_028,2026-05-05 16:48:26,Logoff,usuario_09,WS-09,\\fileserver\comum,Benigno,-,Uso normal
+case_062,2026-05-04 14:30:52,Logon,usuario_13,WS-13,-,Initial Access,T1078,Valid Accounts
+case_062,2026-05-04 14:34:11,Descoberta_Rede,usuario_13,WS-13,-,Discovery,T1018,Remote System Discovery
+case_062,2026-05-04 14:38:18,Coleta_Credenciais,usuario_13,WS-13,-,Credential Access,T1003,OS Credential Dumping
+case_062,2026-05-04 14:43:03,Conexao_WinRM,usuario_13,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_062,2026-05-04 14:47:35,Execucao_PowerShell,usuario_13,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_062,2026-05-04 14:50:02,Logoff,usuario_13,SRV-DC,-,Benigno,-,Uso normal
+case_011,2026-05-05 16:09:56,Logon,usuario_16,WS-16,\Users\Public,Initial Access,T1078,Valid Accounts
+case_011,2026-05-05 16:13:58,Envio_Email,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_011,2026-05-05 16:17:08,Abrir_Aplicativo,usuario_16,WS-16,\Users\Documents,Benigno,-,Uso normal
+case_011,2026-05-05 16:20:50,Envio_Email,usuario_16,WS-16,\\fileserver\comum,Benigno,-,Uso normal
+case_011,2026-05-05 16:24:35,Impressao,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_011,2026-05-05 16:25:38,Envio_Email,usuario_16,WS-16,-,Benigno,-,Uso normal
+case_011,2026-05-05 16:27:19,Logoff,usuario_16,WS-16,\Users\Public,Benigno,-,Uso normal
+case_061,2026-05-04 16:59:51,Logon,usuario_20,WS-20,-,Initial Access,T1078,Valid Accounts
+case_061,2026-05-04 17:02:15,Descoberta_Rede,usuario_20,WS-20,-,Discovery,T1018,Remote System Discovery
+case_061,2026-05-04 17:03:51,Coleta_Credenciais,usuario_20,WS-20,-,Credential Access,T1003,OS Credential Dumping
+case_061,2026-05-04 17:08:01,Conexao_WinRM,usuario_20,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_061,2026-05-04 17:09:10,Execucao_PowerShell,usuario_20,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_061,2026-05-04 17:10:02,Persistencia_Tarefa,usuario_20,SRV-DC,SRV-DC,Persistence,T1053.005,Scheduled Task
+case_061,2026-05-04 17:11:36,Logoff,usuario_20,SRV-DC,-,Benigno,-,Uso normal
+case_053,2026-05-05 14:51:50,Logon,usuario_16,WS-16,-,Initial Access,T1078,Valid Accounts
+case_053,2026-05-05 14:54:03,Descoberta_Rede,usuario_16,WS-16,-,Discovery,T1018,Remote System Discovery
+case_053,2026-05-05 14:54:56,Coleta_Credenciais,usuario_16,WS-16,-,Credential Access,T1003,OS Credential Dumping
+case_053,2026-05-05 14:58:15,Conexao_WinRM,usuario_16,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_053,2026-05-05 15:00:44,Execucao_PowerShell,usuario_16,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_053,2026-05-05 15:02:25,Logoff,usuario_16,SRV-DC,-,Benigno,-,Uso normal
+case_046,2026-05-06 14:59:18,Logon,usuario_03,WS-03,-,Initial Access,T1078,Valid Accounts
+case_046,2026-05-06 15:02:15,Abrir_Aplicativo,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_046,2026-05-06 15:03:01,Acesso_Arquivo_Comum,usuario_03,WS-03,intranet.local,Benigno,-,Uso normal
+case_046,2026-05-06 15:06:23,Navegacao_Web,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_046,2026-05-06 15:10:16,Envio_Email,usuario_03,WS-03,\Users\Documents,Benigno,-,Uso normal
+case_046,2026-05-06 15:13:42,Abrir_Aplicativo,usuario_03,WS-03,-,Benigno,-,Uso normal
+case_046,2026-05-06 15:15:42,Abrir_Aplicativo,usuario_03,WS-03,\\fileserver\comum,Benigno,-,Uso normal
+case_046,2026-05-06 15:19:29,Logoff,usuario_03,WS-03,\Users\Public,Benigno,-,Uso normal
+case_026,2026-05-05 13:39:16,Logon,usuario_10,WS-10,-,Initial Access,T1078,Valid Accounts
+case_026,2026-05-05 13:42:11,Envio_Email,usuario_10,WS-10,impressora_01,Benigno,-,Uso normal
+case_026,2026-05-05 13:43:39,Envio_Email,usuario_10,WS-10,\Users\Documents,Benigno,-,Uso normal
+case_026,2026-05-05 13:48:05,Abrir_Aplicativo,usuario_10,WS-10,\Users\Documents,Benigno,-,Uso normal
+case_026,2026-05-05 13:52:33,Logoff,usuario_10,WS-10,intranet.local,Benigno,-,Uso normal
+case_051,2026-05-08 13:21:42,Logon,usuario_12,WS-12,-,Initial Access,T1078,Valid Accounts
+case_051,2026-05-08 13:22:22,Descoberta_Rede,usuario_12,WS-12,-,Discovery,T1018,Remote System Discovery
+case_051,2026-05-08 13:23:02,Coleta_Credenciais,usuario_12,WS-12,-,Credential Access,T1003,OS Credential Dumping
+case_051,2026-05-08 13:24:28,Conexao_WinRM,usuario_12,SRV-FILE,SRV-FILE,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_051,2026-05-08 13:25:30,Execucao_PowerShell,usuario_12,SRV-FILE,SRV-FILE,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_051,2026-05-08 13:28:30,Logoff,usuario_12,SRV-FILE,-,Benigno,-,Uso normal
+case_066,2026-05-06 02:14:45,Logon,usuario_08,WS-08,-,Initial Access,T1078,Valid Accounts
+case_066,2026-05-06 02:15:31,Descoberta_Arquivos,usuario_08,WS-08,-,Discovery,T1083,File and Directory Discovery
+case_066,2026-05-06 02:18:07,Coleta_Arquivos,usuario_08,WS-08,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_066,2026-05-06 02:22:10,Coleta_Arquivos,usuario_08,WS-08,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_066,2026-05-06 02:26:57,Coleta_Arquivos,usuario_08,WS-08,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_066,2026-05-06 02:29:32,Coleta_Arquivos,usuario_08,WS-08,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_066,2026-05-06 02:32:23,Compactar_Dados,usuario_08,WS-08,-,Collection,T1560,Archive Collected Data
+case_066,2026-05-06 02:34:34,Exfiltracao_Web,usuario_08,WS-08,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_066,2026-05-06 02:35:37,Logoff,usuario_08,WS-08,-,Benigno,-,Uso normal
+case_027,2026-05-05 13:19:05,Logon,usuario_07,WS-07,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_027,2026-05-05 13:19:33,Acesso_Arquivo_Comum,usuario_07,WS-07,intranet.local,Benigno,-,Uso normal
+case_027,2026-05-05 13:23:47,Navegacao_Web,usuario_07,WS-07,\Users\Documents,Benigno,-,Uso normal
+case_027,2026-05-05 13:28:26,Navegacao_Web,usuario_07,WS-07,\\fileserver\comum,Benigno,-,Uso normal
+case_027,2026-05-05 13:31:03,Navegacao_Web,usuario_07,WS-07,\\fileserver\comum,Benigno,-,Uso normal
+case_027,2026-05-05 13:33:10,Abrir_Aplicativo,usuario_07,WS-07,\Users\Public,Benigno,-,Uso normal
+case_027,2026-05-05 13:34:08,Impressao,usuario_07,WS-07,impressora_01,Benigno,-,Uso normal
+case_027,2026-05-05 13:35:14,Logoff,usuario_07,WS-07,\Users\Public,Benigno,-,Uso normal
+case_058,2026-05-08 16:55:42,Logon,usuario_09,WS-09,-,Initial Access,T1078,Valid Accounts
+case_058,2026-05-08 16:58:42,Descoberta_Rede,usuario_09,WS-09,-,Discovery,T1018,Remote System Discovery
+case_058,2026-05-08 16:59:02,Coleta_Credenciais,usuario_09,WS-09,-,Credential Access,T1003,OS Credential Dumping
+case_058,2026-05-08 16:59:39,Conexao_WinRM,usuario_09,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_058,2026-05-08 17:01:52,Execucao_PowerShell,usuario_09,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_058,2026-05-08 17:03:28,Logoff,usuario_09,SRV-DC,-,Benigno,-,Uso normal
+case_007,2026-05-05 15:31:10,Logon,usuario_13,WS-13,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_007,2026-05-05 15:34:24,Navegacao_Web,usuario_13,WS-13,impressora_01,Benigno,-,Uso normal
+case_007,2026-05-05 15:35:10,Navegacao_Web,usuario_13,WS-13,\Users\Documents,Benigno,-,Uso normal
+case_007,2026-05-05 15:35:30,Abrir_Aplicativo,usuario_13,WS-13,impressora_01,Benigno,-,Uso normal
+case_007,2026-05-05 15:37:07,Logoff,usuario_13,WS-13,impressora_01,Benigno,-,Uso normal
+case_045,2026-05-06 13:48:09,Logon,usuario_15,WS-15,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_045,2026-05-06 13:50:13,Acesso_Arquivo_Comum,usuario_15,WS-15,intranet.local,Benigno,-,Uso normal
+case_045,2026-05-06 13:50:52,Envio_Email,usuario_15,WS-15,impressora_01,Benigno,-,Uso normal
+case_045,2026-05-06 13:52:56,Impressao,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_045,2026-05-06 13:56:03,Abrir_Aplicativo,usuario_15,WS-15,\\fileserver\comum,Benigno,-,Uso normal
+case_045,2026-05-06 13:59:33,Navegacao_Web,usuario_15,WS-15,\Users\Public,Benigno,-,Uso normal
+case_045,2026-05-06 14:02:32,Envio_Email,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_045,2026-05-06 14:04:36,Acesso_Arquivo_Comum,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_045,2026-05-06 14:09:09,Logoff,usuario_15,WS-15,impressora_01,Benigno,-,Uso normal
+case_041,2026-05-05 16:28:11,Logon,usuario_04,WS-04,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_041,2026-05-05 16:31:06,Envio_Email,usuario_04,WS-04,-,Benigno,-,Uso normal
+case_041,2026-05-05 16:32:43,Navegacao_Web,usuario_04,WS-04,impressora_01,Benigno,-,Uso normal
+case_041,2026-05-05 16:35:03,Envio_Email,usuario_04,WS-04,intranet.local,Benigno,-,Uso normal
+case_041,2026-05-05 16:38:06,Envio_Email,usuario_04,WS-04,\\fileserver\comum,Benigno,-,Uso normal
+case_041,2026-05-05 16:41:31,Impressao,usuario_04,WS-04,impressora_01,Benigno,-,Uso normal
+case_041,2026-05-05 16:42:31,Impressao,usuario_04,WS-04,impressora_01,Benigno,-,Uso normal
+case_041,2026-05-05 16:44:32,Logoff,usuario_04,WS-04,\\fileserver\comum,Benigno,-,Uso normal
+case_017,2026-05-04 14:33:21,Logon,usuario_07,WS-07,impressora_01,Initial Access,T1078,Valid Accounts
+case_017,2026-05-04 14:36:12,Acesso_Arquivo_Comum,usuario_07,WS-07,impressora_01,Benigno,-,Uso normal
+case_017,2026-05-04 14:37:04,Envio_Email,usuario_07,WS-07,\Users\Documents,Benigno,-,Uso normal
+case_017,2026-05-04 14:39:21,Abrir_Aplicativo,usuario_07,WS-07,\Users\Documents,Benigno,-,Uso normal
+case_017,2026-05-04 14:40:24,Navegacao_Web,usuario_07,WS-07,intranet.local,Benigno,-,Uso normal
+case_017,2026-05-04 14:43:03,Navegacao_Web,usuario_07,WS-07,\Users\Documents,Benigno,-,Uso normal
+case_017,2026-05-04 14:44:55,Logoff,usuario_07,WS-07,intranet.local,Benigno,-,Uso normal
+case_021,2026-05-07 13:55:03,Logon,usuario_07,WS-07,\Users\Public,Initial Access,T1078,Valid Accounts
+case_021,2026-05-07 13:55:30,Acesso_Arquivo_Comum,usuario_07,WS-07,\Users\Documents,Benigno,-,Uso normal
+case_021,2026-05-07 13:58:00,Impressao,usuario_07,WS-07,\\fileserver\comum,Benigno,-,Uso normal
+case_021,2026-05-07 13:59:43,Envio_Email,usuario_07,WS-07,\Users\Documents,Benigno,-,Uso normal
+case_021,2026-05-07 14:00:46,Envio_Email,usuario_07,WS-07,-,Benigno,-,Uso normal
+case_021,2026-05-07 14:04:21,Logoff,usuario_07,WS-07,impressora_01,Benigno,-,Uso normal
+case_071,2026-05-07 00:51:08,Logon,usuario_03,WS-03,-,Initial Access,T1078,Valid Accounts
+case_071,2026-05-07 00:52:18,Descoberta_Arquivos,usuario_03,WS-03,-,Discovery,T1083,File and Directory Discovery
+case_071,2026-05-07 00:54:22,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_071,2026-05-07 00:57:12,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_071,2026-05-07 01:00:15,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_071,2026-05-07 01:03:27,Coleta_Arquivos,usuario_03,WS-03,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_071,2026-05-07 01:07:23,Compactar_Dados,usuario_03,WS-03,-,Collection,T1560,Archive Collected Data
+case_071,2026-05-07 01:09:56,Exfiltracao_USB,usuario_03,WS-03,USB:\,Exfiltration,T1052.001,Exfiltration Over USB
+case_071,2026-05-07 01:10:26,Logoff,usuario_03,WS-03,-,Benigno,-,Uso normal
+case_059,2026-05-08 12:06:57,Logon,usuario_20,WS-20,-,Initial Access,T1078,Valid Accounts
+case_059,2026-05-08 12:07:41,Descoberta_Rede,usuario_20,WS-20,-,Discovery,T1018,Remote System Discovery
+case_059,2026-05-08 12:09:08,Coleta_Credenciais,usuario_20,WS-20,-,Credential Access,T1003,OS Credential Dumping
+case_059,2026-05-08 12:13:38,Conexao_WinRM,usuario_20,SRV-APP,SRV-APP,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_059,2026-05-08 12:15:54,Execucao_PowerShell,usuario_20,SRV-APP,SRV-APP,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_059,2026-05-08 12:16:37,Persistencia_Tarefa,usuario_20,SRV-APP,SRV-APP,Persistence,T1053.005,Scheduled Task
+case_059,2026-05-08 12:17:08,Logoff,usuario_20,SRV-APP,-,Benigno,-,Uso normal
+case_016,2026-05-05 12:19:56,Logon,usuario_07,WS-07,\Users\Public,Initial Access,T1078,Valid Accounts
+case_016,2026-05-05 12:24:15,Envio_Email,usuario_07,WS-07,\Users\Public,Benigno,-,Uso normal
+case_016,2026-05-05 12:25:23,Impressao,usuario_07,WS-07,\\fileserver\comum,Benigno,-,Uso normal
+case_016,2026-05-05 12:29:52,Abrir_Aplicativo,usuario_07,WS-07,\Users\Public,Benigno,-,Uso normal
+case_016,2026-05-05 12:32:06,Envio_Email,usuario_07,WS-07,\Users\Public,Benigno,-,Uso normal
+case_016,2026-05-05 12:36:06,Envio_Email,usuario_07,WS-07,impressora_01,Benigno,-,Uso normal
+case_016,2026-05-05 12:39:52,Logoff,usuario_07,WS-07,intranet.local,Benigno,-,Uso normal
+case_024,2026-05-04 17:58:51,Logon,usuario_02,WS-02,-,Initial Access,T1078,Valid Accounts
+case_024,2026-05-04 18:01:08,Envio_Email,usuario_02,WS-02,\Users\Documents,Benigno,-,Uso normal
+case_024,2026-05-04 18:01:43,Envio_Email,usuario_02,WS-02,\Users\Documents,Benigno,-,Uso normal
+case_024,2026-05-04 18:03:11,Impressao,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_024,2026-05-04 18:06:35,Abrir_Aplicativo,usuario_02,WS-02,\Users\Documents,Benigno,-,Uso normal
+case_024,2026-05-04 18:10:07,Navegacao_Web,usuario_02,WS-02,\\fileserver\comum,Benigno,-,Uso normal
+case_024,2026-05-04 18:10:52,Navegacao_Web,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_024,2026-05-04 18:11:21,Impressao,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_024,2026-05-04 18:16:13,Logoff,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_069,2026-05-05 02:56:09,Logon,usuario_01,WS-01,-,Initial Access,T1078,Valid Accounts
+case_069,2026-05-05 02:56:43,Descoberta_Arquivos,usuario_01,WS-01,-,Discovery,T1083,File and Directory Discovery
+case_069,2026-05-05 02:57:18,Coleta_Arquivos,usuario_01,WS-01,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_069,2026-05-05 02:57:59,Coleta_Arquivos,usuario_01,WS-01,\\fileserver\financeiro,Collection,T1039,Data from Network Shared Drive
+case_069,2026-05-05 02:59:29,Compactar_Dados,usuario_01,WS-01,-,Collection,T1560,Archive Collected Data
+case_069,2026-05-05 03:00:10,Exfiltracao_Web,usuario_01,WS-01,dropbox-externo.com,Exfiltration,T1567,Exfiltration Over Web Service
+case_069,2026-05-05 03:01:04,Logoff,usuario_01,WS-01,-,Benigno,-,Uso normal
+case_030,2026-05-06 15:18:56,Logon,usuario_02,WS-02,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_030,2026-05-06 15:22:40,Envio_Email,usuario_02,WS-02,impressora_01,Benigno,-,Uso normal
+case_030,2026-05-06 15:24:44,Abrir_Aplicativo,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_030,2026-05-06 15:25:45,Impressao,usuario_02,WS-02,\Users\Documents,Benigno,-,Uso normal
+case_030,2026-05-06 15:29:35,Navegacao_Web,usuario_02,WS-02,\\fileserver\comum,Benigno,-,Uso normal
+case_030,2026-05-06 15:31:05,Acesso_Arquivo_Comum,usuario_02,WS-02,-,Benigno,-,Uso normal
+case_030,2026-05-06 15:33:51,Logoff,usuario_02,WS-02,\\fileserver\comum,Benigno,-,Uso normal
+case_054,2026-05-07 10:13:16,Logon,usuario_20,WS-20,-,Initial Access,T1078,Valid Accounts
+case_054,2026-05-07 10:17:53,Descoberta_Rede,usuario_20,WS-20,-,Discovery,T1018,Remote System Discovery
+case_054,2026-05-07 10:22:18,Coleta_Credenciais,usuario_20,WS-20,-,Credential Access,T1003,OS Credential Dumping
+case_054,2026-05-07 10:24:24,Conexao_WinRM,usuario_20,SRV-DC,SRV-DC,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_054,2026-05-07 10:26:58,Execucao_PowerShell,usuario_20,SRV-DC,SRV-DC,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_054,2026-05-07 10:31:37,Logoff,usuario_20,SRV-DC,-,Benigno,-,Uso normal
+case_056,2026-05-07 13:44:33,Logon,usuario_02,WS-02,-,Initial Access,T1078,Valid Accounts
+case_056,2026-05-07 13:45:46,Descoberta_Rede,usuario_02,WS-02,-,Discovery,T1018,Remote System Discovery
+case_056,2026-05-07 13:48:15,Coleta_Credenciais,usuario_02,WS-02,-,Credential Access,T1003,OS Credential Dumping
+case_056,2026-05-07 13:53:09,Conexao_WinRM,usuario_02,SRV-APP,SRV-APP,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_056,2026-05-07 13:56:50,Execucao_PowerShell,usuario_02,SRV-APP,SRV-APP,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_056,2026-05-07 14:00:20,Logoff,usuario_02,SRV-APP,-,Benigno,-,Uso normal
+case_032,2026-05-08 11:17:15,Logon,usuario_18,WS-18,\Users\Documents,Initial Access,T1078,Valid Accounts
+case_032,2026-05-08 11:19:04,Navegacao_Web,usuario_18,WS-18,intranet.local,Benigno,-,Uso normal
+case_032,2026-05-08 11:20:10,Acesso_Arquivo_Comum,usuario_18,WS-18,intranet.local,Benigno,-,Uso normal
+case_032,2026-05-08 11:22:32,Envio_Email,usuario_18,WS-18,intranet.local,Benigno,-,Uso normal
+case_032,2026-05-08 11:25:04,Navegacao_Web,usuario_18,WS-18,impressora_01,Benigno,-,Uso normal
+case_032,2026-05-08 11:27:07,Logoff,usuario_18,WS-18,\Users\Documents,Benigno,-,Uso normal
+case_001,2026-05-08 08:59:58,Logon,usuario_11,WS-11,impressora_01,Initial Access,T1078,Valid Accounts
+case_001,2026-05-08 09:02:07,Acesso_Arquivo_Comum,usuario_11,WS-11,\Users\Documents,Benigno,-,Uso normal
+case_001,2026-05-08 09:03:11,Abrir_Aplicativo,usuario_11,WS-11,\\fileserver\comum,Benigno,-,Uso normal
+case_001,2026-05-08 09:07:05,Impressao,usuario_11,WS-11,\Users\Documents,Benigno,-,Uso normal
+case_001,2026-05-08 09:09:28,Abrir_Aplicativo,usuario_11,WS-11,\Users\Documents,Benigno,-,Uso normal
+case_001,2026-05-08 09:13:25,Logoff,usuario_11,WS-11,\Users\Documents,Benigno,-,Uso normal
+case_052,2026-05-07 14:34:50,Logon,usuario_03,WS-03,-,Initial Access,T1078,Valid Accounts
+case_052,2026-05-07 14:36:19,Descoberta_Rede,usuario_03,WS-03,-,Discovery,T1018,Remote System Discovery
+case_052,2026-05-07 14:36:52,Coleta_Credenciais,usuario_03,WS-03,-,Credential Access,T1003,OS Credential Dumping
+case_052,2026-05-07 14:37:45,Conexao_WinRM,usuario_03,SRV-FILE,SRV-FILE,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_052,2026-05-07 14:39:01,Execucao_PowerShell,usuario_03,SRV-FILE,SRV-FILE,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_052,2026-05-07 14:41:00,Logoff,usuario_03,SRV-FILE,-,Benigno,-,Uso normal
+case_033,2026-05-06 10:08:43,Logon,usuario_13,WS-13,impressora_01,Initial Access,T1078,Valid Accounts
+case_033,2026-05-06 10:13:33,Envio_Email,usuario_13,WS-13,-,Benigno,-,Uso normal
+case_033,2026-05-06 10:15:43,Acesso_Arquivo_Comum,usuario_13,WS-13,\Users\Documents,Benigno,-,Uso normal
+case_033,2026-05-06 10:18:21,Acesso_Arquivo_Comum,usuario_13,WS-13,\Users\Public,Benigno,-,Uso normal
+case_033,2026-05-06 10:21:57,Envio_Email,usuario_13,WS-13,\\fileserver\comum,Benigno,-,Uso normal
+case_033,2026-05-06 10:26:05,Navegacao_Web,usuario_13,WS-13,\\fileserver\comum,Benigno,-,Uso normal
+case_033,2026-05-06 10:29:04,Navegacao_Web,usuario_13,WS-13,\Users\Documents,Benigno,-,Uso normal
+case_033,2026-05-06 10:30:29,Logoff,usuario_13,WS-13,\Users\Documents,Benigno,-,Uso normal
+case_019,2026-05-05 09:52:10,Logon,usuario_04,WS-04,intranet.local,Initial Access,T1078,Valid Accounts
+case_019,2026-05-05 09:52:55,Abrir_Aplicativo,usuario_04,WS-04,\Users\Public,Benigno,-,Uso normal
+case_019,2026-05-05 09:54:58,Impressao,usuario_04,WS-04,intranet.local,Benigno,-,Uso normal
+case_019,2026-05-05 09:57:54,Navegacao_Web,usuario_04,WS-04,impressora_01,Benigno,-,Uso normal
+case_019,2026-05-05 09:59:59,Impressao,usuario_04,WS-04,intranet.local,Benigno,-,Uso normal
+case_019,2026-05-05 10:04:07,Envio_Email,usuario_04,WS-04,impressora_01,Benigno,-,Uso normal
+case_019,2026-05-05 10:05:58,Abrir_Aplicativo,usuario_04,WS-04,intranet.local,Benigno,-,Uso normal
+case_019,2026-05-05 10:09:15,Logoff,usuario_04,WS-04,\Users\Documents,Benigno,-,Uso normal
+case_003,2026-05-07 13:51:46,Logon,usuario_15,WS-15,\\fileserver\comum,Initial Access,T1078,Valid Accounts
+case_003,2026-05-07 13:54:33,Impressao,usuario_15,WS-15,impressora_01,Benigno,-,Uso normal
+case_003,2026-05-07 13:55:30,Acesso_Arquivo_Comum,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_003,2026-05-07 14:00:12,Acesso_Arquivo_Comum,usuario_15,WS-15,\\fileserver\comum,Benigno,-,Uso normal
+case_003,2026-05-07 14:01:56,Abrir_Aplicativo,usuario_15,WS-15,intranet.local,Benigno,-,Uso normal
+case_003,2026-05-07 14:03:33,Envio_Email,usuario_15,WS-15,\\fileserver\comum,Benigno,-,Uso normal
+case_003,2026-05-07 14:07:28,Abrir_Aplicativo,usuario_15,WS-15,\Users\Documents,Benigno,-,Uso normal
+case_003,2026-05-07 14:08:27,Acesso_Arquivo_Comum,usuario_15,WS-15,impressora_01,Benigno,-,Uso normal
+case_003,2026-05-07 14:11:27,Logoff,usuario_15,WS-15,intranet.local,Benigno,-,Uso normal
+case_060,2026-05-04 13:27:22,Logon,usuario_01,WS-01,-,Initial Access,T1078,Valid Accounts
+case_060,2026-05-04 13:32:15,Descoberta_Rede,usuario_01,WS-01,-,Discovery,T1018,Remote System Discovery
+case_060,2026-05-04 13:34:29,Coleta_Credenciais,usuario_01,WS-01,-,Credential Access,T1003,OS Credential Dumping
+case_060,2026-05-04 13:38:20,Conexao_WinRM,usuario_01,SRV-APP,SRV-APP,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_060,2026-05-04 13:41:14,Execucao_PowerShell,usuario_01,SRV-APP,SRV-APP,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_060,2026-05-04 13:42:42,Persistencia_Tarefa,usuario_01,SRV-APP,SRV-APP,Persistence,T1053.005,Scheduled Task
+case_060,2026-05-04 13:44:46,Logoff,usuario_01,SRV-APP,-,Benigno,-,Uso normal
+case_038,2026-05-06 09:55:05,Logon,usuario_20,WS-20,\Users\Public,Initial Access,T1078,Valid Accounts
+case_038,2026-05-06 09:58:13,Navegacao_Web,usuario_20,WS-20,\Users\Public,Benigno,-,Uso normal
+case_038,2026-05-06 10:00:07,Envio_Email,usuario_20,WS-20,-,Benigno,-,Uso normal
+case_038,2026-05-06 10:04:55,Abrir_Aplicativo,usuario_20,WS-20,-,Benigno,-,Uso normal
+case_038,2026-05-06 10:09:14,Navegacao_Web,usuario_20,WS-20,\Users\Documents,Benigno,-,Uso normal
+case_038,2026-05-06 10:12:13,Logoff,usuario_20,WS-20,-,Benigno,-,Uso normal
+case_065,2026-05-07 16:12:27,Logon,usuario_16,WS-16,-,Initial Access,T1078,Valid Accounts
+case_065,2026-05-07 16:16:45,Descoberta_Rede,usuario_16,WS-16,-,Discovery,T1018,Remote System Discovery
+case_065,2026-05-07 16:17:46,Coleta_Credenciais,usuario_16,WS-16,-,Credential Access,T1003,OS Credential Dumping
+case_065,2026-05-07 16:21:57,Conexao_WinRM,usuario_16,SRV-APP,SRV-APP,Lateral Movement,T1021.006,Remote Services: WinRM / PS Remoting
+case_065,2026-05-07 16:23:46,Execucao_PowerShell,usuario_16,SRV-APP,SRV-APP,Execution,T1059.001,Command and Scripting Interpreter: PowerShell
+case_065,2026-05-07 16:26:01,Persistencia_Tarefa,usuario_16,SRV-APP,SRV-APP,Persistence,T1053.005,Scheduled Task
+case_065,2026-05-07 16:27:14,Logoff,usuario_16,SRV-APP,-,Benigno,-,Uso normal
